@@ -1,8 +1,34 @@
 /*  your css code here. If applicable */
+.modal {
+  /* display: flex;
+  justify-content: center;
+align-content: center;
+  background-color:gray;
+  padding: 150px;
+  border: 1px solid #000; */
+	background-color:gray;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;           /* Adjust the width as needed */
+  height: 300px;        /* Set height of the container */        /* Padding around the container */
+  border: 5px solid black; /* Border around the container */
+  border-radius: 15px;  /* Rounded corners for the container */
+  margin: 50px auto;    /* Center the container on the page */
+
+}
 .box{
-	background-color: gray;
-	padding: 20%;
+	padding: 10%;
 	border: 3px solid black;
-	height: 10px;
-	margin: 30px;
+	margin: 10px;
+	border-radius: 5px;
+}
+.red{
+	background-color: green;
+}
+.green{
+	background-color: yellow;
+}
+.yellow{
+	background-color: red;
 }
