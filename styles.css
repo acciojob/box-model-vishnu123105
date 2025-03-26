@@ -1,1 +1,8 @@
 /*  your css code here. If applicable */
+.box{
+	background-color: gray;
+	padding: 20%;
+	border: 3px solid black;
+	height: 10px;
+	margin: 30px;
+}
