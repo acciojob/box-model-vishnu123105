@@ -24,12 +24,12 @@ align-content: center;
 	margin: 10px;
 	/* border-radius: 5px; */
 }
-.box.red{
-	background-color: rgb(255, 0, 0);
-}
 .box.green{
-	background-color: yellow;
+	background-color: green;
 }
 .box.yellow{
-	background-color: green /* red */
+	background-color: yellow;
+}
+.box.red{
+	background-color: red;
 }
