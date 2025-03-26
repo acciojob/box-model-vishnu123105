@@ -18,16 +18,18 @@ align-content: center;
 
 }
 .box{
+	display: flex;
 	padding: 10%;
 	/* border: 3px solid black; */
 	margin: 10px;
 	/* border-radius: 5px; */
 }
 .box.red{
-	background-color: green;
+	background-color: rgb(255, 0, 0);
 }
 .box.green{
 	background-color: yellow;
 }
 .box.yellow{
-	background-color: rgb(255, 0, 0); /* red */
+	background-color: green /* red */
+}
