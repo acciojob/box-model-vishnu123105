@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-.modal {
+.container{
   /* display: flex;
   justify-content: center;
 align-content: center;
@@ -19,16 +19,15 @@ align-content: center;
 }
 .box{
 	padding: 10%;
-	border: 3px solid black;
+	/* border: 3px solid black; */
 	margin: 10px;
-	border-radius: 5px;
+	/* border-radius: 5px; */
 }
-.red{
+.box.red{
 	background-color: green;
 }
-.green{
+.box.green{
 	background-color: yellow;
 }
-.yellow{
-	background-color: red;
-}
+.box.yellow{
+	background-color: rgb(255, 0, 0); /* red */
